@@ -29,6 +29,9 @@ To test Safeline WAF's response to repeated failed login attempts (basic brute-f
 - Safeline web interface showing Auth Protection enabled
   ![Safwline application](/screenshots/Safeline_application.png)
 
+- Safeline authentication page
+  ![Safwline authentication](/screenshots/Safeline_auth.png)
+
 - DVWA login page blocked after repeated failures
   ![DVWA blocked](/screenshots/access_forbidden1.png)
 
