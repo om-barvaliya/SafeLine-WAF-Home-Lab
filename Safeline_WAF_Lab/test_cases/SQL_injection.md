@@ -57,8 +57,7 @@ Executed via:
 ## 🧰 Safeline WAF Configuration
 
 - Deployed as a reverse proxy in front of DVWA (Nginx)
-- Enabled the **SQL Injection Protection Module**
-- Logged all detected attacks via `/var/log/safeline/` and Dashboard (if available)
+- Logged all detected attacks via `/var/log/safeline/` and Dashboard
 
 ---
 
