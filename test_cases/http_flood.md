@@ -27,7 +27,7 @@ To evaluate how Safeline WAF responds to high-volume HTTP request attacks (HTTP 
 ## 📸 Screenshots
 
 - Safeline Logs
-  ![http flood blocking](/screenshots/SAfeline_httpFlood.jpg)
+  ![http flood blocking](/screenshots/Safeline_httpFlood.jpg)
   
 - Browser showing 403 Block Page
   ![http flood blocking](/screenshots/access_forbidden2_htmlFlood.png)
