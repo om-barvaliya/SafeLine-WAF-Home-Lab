@@ -44,7 +44,8 @@ Executed via:
 
 - **DVWA input forms**
 - **Burp Suite's HTTP Request Editor (Repeater)**
-  
+  ![SQL Injection Demo](/screenshots/SQL_injection.gif)
+
 ### Step 3: Observe Server Behavior
 
 - Monitored response pages to identify if:
@@ -74,14 +75,8 @@ Executed via:
 - All high-risk payloads were blocked by Safeline.
 - Requests intercepted and modified using Burp were still detected.
 
----
+  ![SQL Injection Detected](/screenshots/Safeline_SQL_detected.png)
 
-## 📸 Screenshots
-
-- DVWA SQL Injection page
-- Burp Suite Intercepted SQLi payload
-- Safeline WAF logs showing detection
-- HTTP 403 error page returned
 
 ---
 
