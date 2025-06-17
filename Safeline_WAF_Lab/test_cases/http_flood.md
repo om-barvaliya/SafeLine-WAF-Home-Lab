@@ -28,7 +28,7 @@ To evaluate how Safeline WAF responds to high-volume HTTP request attacks (HTTP 
 
 - HTTP Flood Blocking Alert
 - Safeline Logs Highlighting Rate Limiting
-- Browser showing 403 Block Page (with IP redacted)
+- Browser showing 403 Block Page
 
 ## ✅ Result
 
