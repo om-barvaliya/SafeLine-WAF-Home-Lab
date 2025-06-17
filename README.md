@@ -2,6 +2,7 @@
 
 Safeline is an open-source Web Application Firewall (WAF) developed by Chaitin Technology, designed to detect and prevent common web application attacks. This repository contains a complete lab setup, testing scenarios, and analysis performed using Safeline in a virtualized testbed.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ---
 
 ## 🚀 Overview
