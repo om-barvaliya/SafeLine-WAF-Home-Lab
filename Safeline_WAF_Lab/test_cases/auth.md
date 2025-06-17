@@ -28,7 +28,6 @@ To test Safeline WAF's response to repeated failed login attempts (basic brute-f
 
 - Safeline web interface showing Auth Protection enabled
 - DVWA login page blocked after repeated failures
-- Safeline logs identifying blocked IP due to brute-force behavior
 
 ## ✅ Result
 
