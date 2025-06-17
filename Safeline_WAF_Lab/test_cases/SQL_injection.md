@@ -44,6 +44,8 @@ Executed via:
 
 - **DVWA input forms**
 - **Burp Suite's HTTP Request Editor (Repeater)**
+  
+![SQL Injection Demo](./screenshots/SQL_injection.gif)
 
 ### Step 3: Observe Server Behavior
 
