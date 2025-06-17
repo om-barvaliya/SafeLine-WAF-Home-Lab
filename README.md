@@ -14,6 +14,14 @@ The goal of this project is to simulate real-world web attacks in a controlled e
 - **Safeline WAF** running as a protective layer in front of the target server.
 
 ---
+### 🖼️ How Safeline WAF Works
+
+![Safeline Architecture Diagram](/screenshots/Safeline.jpg)
+
+> 📷 *Source: [The Hacker News – May 2025](https://thehackernews.com/2025/05/safeline-waf-open-source-web.html)*  
+> 🧠 *Image credit to Chaitin Tech – creators of Safeline WAF*
+
+---
 
 ## 🏗️ Lab Setup
 
@@ -49,13 +57,22 @@ Multiple attack simulations were performed against the protected server to obser
 
 ---
 
-## 🧪 Burp Suite Analysis
+### Burp Suite in Action
 
-Burp Suite was used to generate and analyze requests to the target server. Interactions were recorded for:
+Some key screenshots from Burp Suite during attack simulation:
 
-- Request modification
-- Repeater-based brute-force tests
-- Observing WAF behavior on malformed input
+- **Payload Analysis**
+  
+  ![Payloads Used](/screenshots/BurpSuite_payloads.png)
+
+- **Logger Tab**
+  
+  ![Logger Tab](/screenshots/BurpSuite_logger.jpg)
+
+- **Repeater Testing**
+  
+  ![Repeater Tab](/screenshots/BurpSuite_repeater.png)
+
 
 > 📄 Sample screenshots and requests are [`here`](screenshots)
 
@@ -70,6 +87,12 @@ Examples:
 - Safeline startup terminal logs
 - Attack detection logs from Safeline
 - Burp Suite request/response
+
+### WAF Console Log Example
+
+Safeline logging a blocked SQL Injection attempt:
+
+![Safeline SQL Detection](/screenshots/Safeline_SQL_detected.png)
 
 ---
 
